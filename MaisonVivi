@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Art du Sucre | Pâtisserie Française</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">L'Art du Sucre</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Creaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Dulce Perfección en cada Bocado</h1>
+            <p>Alta repostería francesa artesanal con ingredientes de temporada.</p>
+            <button class="btn-main">Explorar Menú</button>
+        </div>
+    </section>
+
+    <section id="productos" class="products">
+        <h2 data-aos="fade-down">Nuestras Joyas</h2>
+        <div class="grid-productos">
+            <div class="card" data-aos="zoom-in">
+                <div class="img-placeholder">Macarons Royales</div>
+                <h3>Macarons</h3>
+                <p>Colección de lavanda y miel.</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="img-placeholder">Éclairs d'Or</div>
+                <h3>Éclairs</h3>
+                <p>Crema de pistacho y chocolate gold.</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="img-placeholder">Tarte aux Fruits</div>
+                <h3>Tartaletas</h3>
+                <p>Frutos del bosque seleccionados.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
